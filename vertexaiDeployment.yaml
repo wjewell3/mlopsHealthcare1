@@ -1,0 +1,9 @@
+apiVersion: aiplatform.googleapis.com/v1
+kind: Endpoint
+metadata:
+  name: vertex-ai-app
+spec:
+  deployedModels:
+    - model:
+        image: gcr.io/<your-project-id>/vertex-ai-app:latest
+      trafficSplit: 100

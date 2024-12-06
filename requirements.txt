@@ -1,0 +1,6 @@
+pandas
+numpy
+flask 
+prometheus-client
+google-cloud-aiplatform
+IPython

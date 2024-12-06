@@ -1,0 +1,1 @@
+gcloud ai endpoints create --region=us-central1 --config=endpoint.yaml
